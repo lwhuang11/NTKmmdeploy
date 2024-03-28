@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\openmmlab\mmdeploy\build-t\CMakeFiles\a4bd7c390876f9a807fca618b208c707\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AC8D53A5-0489-3C36-BC40-7D6A7CA85F50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

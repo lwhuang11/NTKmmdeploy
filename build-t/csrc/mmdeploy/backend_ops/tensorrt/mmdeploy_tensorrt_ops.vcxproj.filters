@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_batched_nms.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_batched_rotated_nms.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_bicubic_interpolate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_bicubic_interpolate_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\allClassNMS.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\allClassRotatedNMS.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\batched_nms_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\gatherNMSOutputs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\permuteData.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\sortScoresPerClass.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\sortScoresPerImage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_cuda_helper.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_deform_conv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_deform_conv_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\gather_topk.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\gather_topk_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_grid_priors.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_grid_priors_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_grid_sampler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_grid_sampler_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_instance_norm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_modulated_deform_conv.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_modulated_deform_conv_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_multi_level_roi_align.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_multi_level_roi_align_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_multi_level_rotated_roi_align.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_multi_level_rotated_roi_align_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_ms_deform_attn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_ms_deform_attn_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_roi_align.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_roi_align_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\scaled_dot_product_attention.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\scaled_dot_product_attention_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_scatternd.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\mmdeploy_tensorrt_ops_obj.dir\$(Configuration)\trt_scatternd_kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{E8CCB7B3-111E-3E9E-A370-EA90126B3673}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

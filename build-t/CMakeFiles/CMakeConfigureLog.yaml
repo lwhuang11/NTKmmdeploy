@@ -1,0 +1,714 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework 的 MSBuild 版本 17.8.5+b5265ef37
+      已經開始建置於 2024/3/10 上午 11:33:48。
+      
+      節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.47
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework 的 MSBuild 版本 17.8.5+b5265ef37
+      已經開始建置於 2024/3/10 上午 11:33:49。
+      
+      節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.46
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-p0a3yg"
+      binary: "D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-p0a3yg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-p0a3yg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b1a2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework 的 MSBuild 版本 17.8.5+b5265ef37
+        已經開始建置於 2024/3/10 上午 11:33:49。
+        
+        節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-p0a3yg\\cmTC_9b1a2.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_9b1a2.dir\\Debug\\"。
+          結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。
+          正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-p0a3yg\\Debug\\"。
+          正在建立目錄 "cmTC_9b1a2.dir\\Debug\\cmTC_9b1a2.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_9b1a2.dir\\Debug\\cmTC_9b1a2.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_9b1a2.dir\\Debug\\cmTC_9b1a2.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b1a2.dir\\Debug\\\\" /Fd"cmTC_9b1a2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b1a2.dir\\Debug\\\\" /Fd"cmTC_9b1a2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-p0a3yg\\Debug\\cmTC_9b1a2.exe" /INCREMENTAL /ILK:"cmTC_9b1a2.dir\\Debug\\cmTC_9b1a2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-p0a3yg/Debug/cmTC_9b1a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-p0a3yg/Debug/cmTC_9b1a2.lib" /MACHINE:X64  /machine:x64 cmTC_9b1a2.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9b1a2.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-p0a3yg\\Debug\\cmTC_9b1a2.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_9b1a2.dir\\Debug\\cmTC_9b1a2.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_9b1a2.dir\\Debug\\cmTC_9b1a2.tlog\\cmTC_9b1a2.lastbuildstate"。
+        專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-p0a3yg\\cmTC_9b1a2.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.49
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-dtaxv1"
+      binary: "D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-dtaxv1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-dtaxv1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cce16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework 的 MSBuild 版本 17.8.5+b5265ef37
+        已經開始建置於 2024/3/10 上午 11:33:50。
+        
+        節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-dtaxv1\\cmTC_cce16.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_cce16.dir\\Debug\\"。
+          結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。
+          正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-dtaxv1\\Debug\\"。
+          正在建立目錄 "cmTC_cce16.dir\\Debug\\cmTC_cce16.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_cce16.dir\\Debug\\cmTC_cce16.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_cce16.dir\\Debug\\cmTC_cce16.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cce16.dir\\Debug\\\\" /Fd"cmTC_cce16.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33135 for x64
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cce16.dir\\Debug\\\\" /Fd"cmTC_cce16.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-dtaxv1\\Debug\\cmTC_cce16.exe" /INCREMENTAL /ILK:"cmTC_cce16.dir\\Debug\\cmTC_cce16.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-dtaxv1/Debug/cmTC_cce16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-dtaxv1/Debug/cmTC_cce16.lib" /MACHINE:X64  /machine:x64 cmTC_cce16.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cce16.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-dtaxv1\\Debug\\cmTC_cce16.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_cce16.dir\\Debug\\cmTC_cce16.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_cce16.dir\\Debug\\cmTC_cce16.tlog\\cmTC_cce16.lastbuildstate"。
+        專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-dtaxv1\\cmTC_cce16.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake/cuda.cmake:66 (enable_language)"
+      - "CMakeLists.txt:99 (include)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/bin/nvcc.exe 
+      Build flags: -Xcompiler=/wd4819,/wd4828
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      .NET Framework 的 MSBuild 版本 17.8.5+b5265ef37
+      已經開始建置於 2024/3/10 上午 11:33:51。
+      
+      節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。
+        正在建立目錄 "Debug\\CompilerIdCUDA.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。
+      AddCudaCompileDeps:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=8 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I. /FIcuda_runtime.h /c D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) 正在節點 1 (CudaBuildCore 目標) 上建置 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2)。
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug"。
+        cmd.exe /C "C:\\Users\\User\\AppData\\Local\\Temp\\tmp2efc1f279d0b4e9299233d477cb395c9.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _NVVM_BRANCH_=nvvm
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;D:\\anaconda\\envs\\openmmlab_new;D:\\anaconda\\envs\\openmmlab_new\\Library\\mingw-w64\\bin;D:\\anaconda\\envs\\openmmlab_new\\Library\\usr\\bin;D:\\anaconda\\envs\\openmmlab_new\\Library\\bin;D:\\anaconda\\envs\\openmmlab_new\\Scripts;D:\\anaconda\\envs\\openmmlab_new\\bin;C:\\Users\\User\\anaconda3\\condabin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.1\\libnvvp;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Pulse Secure\\TNC Client Plugin;C:\\Program Files\\MATLAB\\R2022b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2022b\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\Wbem;D:\\onnxruntime-win-x64-gpu-1.17.1\\lib;D:\\rtm\\mmpose\\onnxruntime-win-x64-gpu-1.17.0\\lib;D:\\rtm\\mmpose\\onnxruntime-win-x64-gpu-1.12.0\\onnxruntime-win-x64-gpu-1.12.0\\lib;C:\\Program Files\\CMake\\bin;D:\\opencv_workspace\\sources\\build\\bin\\Release;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0;C:\\Program Files\\mingw64\\bin;D:\\TensorRT-8.6.1.6\\bin;D:\\opencv_workspace\\sources\\build\\win-install\\OpenCVConfig.cmake;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Scripts;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\.dotnet\\tools;C:\\Users\\User\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\User\\.dotnet\\tools;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\OpenSim 4.4\\bin;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-9.res" > "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-8_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-9.res
+        #$ cicc --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-10_CMakeCUDACompilerId.sm_52.cubin" 
+        #$ fatbinary -64 --ident="D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+        #$ erase C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-11.res" > "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-11.res
+        #$ cudafe++ --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-12.res" -Fo"D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-12.res
+      專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore 目標) 建置完成。
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"
+           正在建立程式庫 .\\CompilerIdCUDA.lib 和物件 .\\CompilerIdCUDA.exp
+      LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+        CompilerIdCUDA.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate"。
+      專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+      
+      "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (預設目標) (1) ->
+      (Link 目標) -> 
+        LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]
+      
+          1 個警告
+          0 個錯誤
+      
+      經過時間 00:00:02.45
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:128 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:246 (cmake_nvcc_parse_implicit_info)"
+      - "cmake/cuda.cmake:66 (enable_language)"
+      - "CMakeLists.txt:99 (include)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;D:\\anaconda\\envs\\openmmlab_new;D:\\anaconda\\envs\\openmmlab_new\\Library\\mingw-w64\\bin;D:\\anaconda\\envs\\openmmlab_new\\Library\\usr\\bin;D:\\anaconda\\envs\\openmmlab_new\\Library\\bin;D:\\anaconda\\envs\\openmmlab_new\\Scripts;D:\\anaconda\\envs\\openmmlab_new\\bin;C:\\Users\\User\\anaconda3\\condabin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.1\\libnvvp;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Pulse Secure\\TNC Client Plugin;C:\\Program Files\\MATLAB\\R2022b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2022b\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\Wbem;D:\\onnxruntime-win-x64-gpu-1.17.1\\lib;D:\\rtm\\mmpose\\onnxruntime-win-x64-gpu-1.17.0\\lib;D:\\rtm\\mmpose\\onnxruntime-win-x64-gpu-1.12.0\\onnxruntime-win-x64-gpu-1.12.0\\lib;C:\\Program Files\\CMake\\bin;D:\\opencv_workspace\\sources\\build\\bin\\Release;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0;C:\\Program Files\\mingw64\\bin;D:\\TensorRT-8.6.1.6\\bin;D:\\opencv_workspace\\sources\\build\\win-install\\OpenCVConfig.cmake;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Scripts;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\.dotnet\\tools;C:\\Users\\User\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\User\\.dotnet\\tools;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\OpenSim 4.4\\bin;]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../include"  ]
+        considering line: [.NET Framework 的 MSBuild 版本 17.8.5+b5265ef37]
+        considering line: [已經開始建置於 2024/3/10 上午 11:33:51。]
+        considering line: [節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj"。]
+        considering line: [PrepareForBuild:]
+        considering line: [  正在建立目錄 "Debug\\"。]
+        considering line: [  結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。]
+        considering line: [  正在建立目錄 "Debug\\CompilerIdCUDA.tlog\\"。]
+        considering line: [InitializeBuildStatus:]
+        considering line: [  由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。]
+        considering line: [  正在變更時間戳記 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。]
+        considering line: [AddCudaCompileDeps:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=8 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I. /FIcuda_runtime.h /c D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu ]
+        considering line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) 正在節點 1 (CudaBuildCore 目標) 上建置 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2)。]
+        considering line: [CudaBuildCore:]
+        considering line: [  Compiling CUDA source file CMakeCUDACompilerId.cu...]
+        considering line: [  正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug"。]
+        considering line: [  cmd.exe /C "C:\\Users\\User\\AppData\\Local\\Temp\\tmp2efc1f279d0b4e9299233d477cb395c9.cmd"]
+        considering line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"]
+        considering line: [  ]
+        considering line: [  D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        considering line: [                                  CMakeCUDACompilerId.cu]
+        considering line: [  #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-9.res" > "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-8_CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-9.res]
+        considering line: [  #$ cicc --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx"]
+        considering line: [  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-10_CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [  #$ fatbinary -64 --ident="D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [  #$ erase C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin]
+        considering line: [  #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-11.res" > "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-11.res]
+        considering line: [  #$ cudafe++ --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-12.res" -Fo"D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" ]
+        considering line: [  tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [  #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-12.res]
+        considering line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore 目標) 建置完成。]
+        considering line: [Link:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          extracted link line: [link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+        considering line: [     正在建立程式庫 .\\CompilerIdCUDA.lib 和物件 .\\CompilerIdCUDA.exp]
+        considering line: [LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [  CompilerIdCUDA.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.exe]
+        considering line: [PostBuildEvent:]
+        considering line: [  echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe]
+        considering line: [  :VCEnd]
+        considering line: [  CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe]
+        considering line: [FinalizeBuildStatus:]
+        considering line: [  正在刪除檔案 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。]
+        considering line: [  正在變更時間戳記 "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate"。]
+        considering line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (預設目標) 建置完成。]
+        considering line: [建置成功。]
+        considering line: ["D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (預設目標) (1) ->]
+        considering line: [(Link 目標) -> ]
+        considering line: [  LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [    1 個警告]
+        considering line: [    0 個錯誤]
+        considering line: [經過時間 00:00:02.45]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(link\\.exe|link\\.exe|lld-link|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          arg [cuda-fake-ld] ==> ignore
+          arg [link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:.\\CompilerIdCUDA.exe] ==> ignore
+          arg [/INCREMENTAL:NO] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/PDB:.\\CompilerIdCUDA.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:.\\CompilerIdCUDA.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj] ==> ignore
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64]
+        implicit libs: [cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:146 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCUDACompiler.cmake:246 (cmake_nvcc_parse_implicit_info)"
+      - "cmake/cuda.cmake:66 (enable_language)"
+      - "CMakeLists.txt:99 (include)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'PATH=' string: [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../lib;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\tools;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64;C:\\WINDOWS\\Microsoft.NET\\Framework64\\v4.0.30319\\;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin;C:\\WINDOWS\\Microsoft.NET\\Framework\\v4.0.30319\\;;D:\\anaconda\\envs\\openmmlab_new;D:\\anaconda\\envs\\openmmlab_new\\Library\\mingw-w64\\bin;D:\\anaconda\\envs\\openmmlab_new\\Library\\usr\\bin;D:\\anaconda\\envs\\openmmlab_new\\Library\\bin;D:\\anaconda\\envs\\openmmlab_new\\Scripts;D:\\anaconda\\envs\\openmmlab_new\\bin;C:\\Users\\User\\anaconda3\\condabin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.3\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.1\\libnvvp;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\Common Files\\Pulse Secure\\TNC Client Plugin;C:\\Program Files\\MATLAB\\R2022b\\runtime\\win64;C:\\Program Files\\MATLAB\\R2022b\\bin;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\Wbem;D:\\onnxruntime-win-x64-gpu-1.17.1\\lib;D:\\rtm\\mmpose\\onnxruntime-win-x64-gpu-1.17.0\\lib;D:\\rtm\\mmpose\\onnxruntime-win-x64-gpu-1.12.0\\onnxruntime-win-x64-gpu-1.12.0\\lib;C:\\Program Files\\CMake\\bin;D:\\opencv_workspace\\sources\\build\\bin\\Release;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn;C:\\Program Files\\dotnet;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2021.1.0;C:\\Program Files\\mingw64\\bin;D:\\TensorRT-8.6.1.6\\bin;D:\\opencv_workspace\\sources\\build\\win-install\\OpenCVConfig.cmake;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\Scripts;C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\.dotnet\\tools;C:\\Users\\User\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\User\\.dotnet\\tools;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\OpenSim 4.4\\bin;]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin/../include"  ]
+        considering line: [.NET Framework 的 MSBuild 版本 17.8.5+b5265ef37]
+        considering line: [已經開始建置於 2024/3/10 上午 11:33:51。]
+        considering line: [節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj"。]
+        considering line: [PrepareForBuild:]
+        considering line: [  正在建立目錄 "Debug\\"。]
+        considering line: [  結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。]
+        considering line: [  正在建立目錄 "Debug\\CompilerIdCUDA.tlog\\"。]
+        considering line: [InitializeBuildStatus:]
+        considering line: [  由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。]
+        considering line: [  正在變更時間戳記 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。]
+        considering line: [AddCudaCompileDeps:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=8 /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I. /FIcuda_runtime.h /c D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu ]
+        considering line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1) 正在節點 1 (CudaBuildCore 目標) 上建置 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (1:2)。]
+        considering line: [CudaBuildCore:]
+        considering line: [  Compiling CUDA source file CMakeCUDACompilerId.cu...]
+        considering line: [  正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug"。]
+        considering line: [  cmd.exe /C "C:\\Users\\User\\AppData\\Local\\Temp\\tmp2efc1f279d0b4e9299233d477cb395c9.cmd"]
+        considering line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"]
+        considering line: [  ]
+        considering line: [  D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe" -gencode=arch=compute_52,code=\\"sm_52,compute_52\\" --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"  -G   --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        considering line: [                                  CMakeCUDACompilerId.cu]
+        considering line: [  #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-9.res" > "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-8_CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-9.res]
+        considering line: [  #$ cicc --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx"]
+        considering line: [  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-10_CMakeCUDACompilerId.sm_52.cubin" ]
+        considering line: [  #$ fatbinary -64 --ident="D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin.c" ]
+        considering line: [  #$ erase C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-4_CMakeCUDACompilerId.fatbin]
+        considering line: [  #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-11.res" > "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-11.res]
+        considering line: [  #$ cudafe++ --microsoft_version=1938 --msvc_target_version=1938 --compiler_bindir "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.38.33130/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\10" --m64 --parse_templates --gen_c_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/User/AppData/Local/Temp/tmpxft_00001a20_00000000-6_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  #$ cl.exe @"C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-12.res" -Fo"D:/openmmlab/mmdeploy/build-t/CMakeFiles/3.28.2/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" ]
+        considering line: [  tmpxft_00001a20_00000000-7_CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [  #$ erase C:\\Users\\User\\AppData\\Local\\Temp/tmpxft_00001a20_00000000-12.res]
+        considering line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (CudaBuildCore 目標) 建置完成。]
+        considering line: [Link:]
+        considering line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          extracted link line: [link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+        considering line: [     正在建立程式庫 .\\CompilerIdCUDA.lib 和物件 .\\CompilerIdCUDA.exp]
+        considering line: [LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [  CompilerIdCUDA.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.exe]
+        considering line: [PostBuildEvent:]
+        considering line: [  echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe]
+        considering line: [  :VCEnd]
+        considering line: [  CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe]
+        considering line: [FinalizeBuildStatus:]
+        considering line: [  正在刪除檔案 "Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild"。]
+        considering line: [  正在變更時間戳記 "Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate"。]
+        considering line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (預設目標) 建置完成。]
+        considering line: [建置成功。]
+        considering line: ["D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj" (預設目標) (1) ->]
+        considering line: [(Link 目標) -> ]
+        considering line: [  LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj]]
+        considering line: [    1 個警告]
+        considering line: [    0 個錯誤]
+        considering line: [經過時間 00:00:02.45]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(link\\.exe|link\\.exe|lld-link|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj"]
+          arg [cuda-fake-ld] ==> ignore
+          arg [link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:.\\CompilerIdCUDA.exe] ==> ignore
+          arg [/INCREMENTAL:NO] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/PDB:.\\CompilerIdCUDA.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:.\\CompilerIdCUDA.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\3.28.2\\CompilerIdCUDA\\x64\\Debug\\CMakeCUDACompilerId.cu.obj] ==> ignore
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64]
+        implicit libs: [cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.8/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "cmake/cuda.cmake:66 (enable_language)"
+      - "CMakeLists.txt:99 (include)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l"
+      binary: "D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l"
+    cmakeVariables:
+      CMAKE_CUDA_FLAGS: " -Xcompiler=/wd4819,/wd4828"
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\"-MDd  -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5842.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework 的 MSBuild 版本 17.8.5+b5265ef37
+        已經開始建置於 2024/3/10 上午 11:33:53。
+        
+        節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_a5842.dir\\Debug\\"。
+          結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。
+          正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\Debug\\"。
+          正在建立目錄 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\unsuccessfulbuild"。
+        AddCudaCompileDeps:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=8 /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu" 
+        專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (1) 正在節點 1 (CudaBuildCore 目標) 上建置 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (1:2)。
+        CudaBuildCore:
+          Compiling CUDA source file C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\User\\AppData\\Local\\Temp\\tmp9dfcb7534d7e4c7b90ddd4a3c74e765f.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/wd4819,/wd4828 -Zi -Ob0 -v" -g  -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_a5842.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_a5842.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/wd4819,/wd4828 -Zi -Ob0 -v" -g  -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_a5842.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_a5842.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          CMakeCUDACompilerABI.cu
+          CMakeCUDACompilerABI.cu
+        cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+        C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+        專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (CudaBuildCore 目標) 建置完成。
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\Debug\\cmTC_a5842.exe" /INCREMENTAL /ILK:"cmTC_a5842.dir\\Debug\\cmTC_a5842.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.lib" /MACHINE:X64  /machine:x64 -v cmTC_a5842.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: 無法辨認的選項 '/v'，已忽略 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+             正在建立程式庫 D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.lib 和物件 D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.exp
+        LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          cmTC_a5842.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\Debug\\cmTC_a5842.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\cmTC_a5842.lastbuildstate"。
+        專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+        
+        "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (預設目標) (1) ->
+        "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (CudaBuildCore 目標) (1:2) ->
+        (CudaBuildCore 目標) -> 
+          cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+        
+        
+        "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          LINK : warning LNK4044: 無法辨認的選項 '/v'，已忽略 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+          LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]
+        
+            6 個警告
+            0 個錯誤
+        
+        經過時間 00:00:02.17
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "cmake/cuda.cmake:66 (enable_language)"
+      - "CMakeLists.txt:99 (include)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "cmake/cuda.cmake:66 (enable_language)"
+      - "CMakeLists.txt:99 (include)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(link\\.exe|link\\.exe|lld-link|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5842.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n]
+        ignore line: [.NET Framework 的 MSBuild 版本 17.8.5+b5265ef37]
+        ignore line: [已經開始建置於 2024/3/10 上午 11:33:53。]
+        ignore line: []
+        ignore line: [節點 1 (預設目標) 上的專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj"。]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  正在建立目錄 "cmTC_a5842.dir\\Debug\\"。]
+        ignore line: [  結構化輸出已啟用。編譯器診斷的格式化將反映錯誤階層。如需詳細資料，請參閱 https://aka.ms/cpp/structured-output。]
+        ignore line: [  正在建立目錄 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\Debug\\"。]
+        ignore line: [  正在建立目錄 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\"。]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\unsuccessfulbuild"。]
+        ignore line: [  正在變更時間戳記 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\unsuccessfulbuild"。]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=8 /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include" /I. /FIcuda_runtime.h /c "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (1) 正在節點 1 (CudaBuildCore 目標) 上建置 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (1:2)。]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\User\\AppData\\Local\\Temp\\tmp9dfcb7534d7e4c7b90ddd4a3c74e765f.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/wd4819 /wd4828 -Zi -Ob0 -v" -g  -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_a5842.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_a5842.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin\\nvcc.exe"  --use-local-env -ccbin "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64" -x cu    -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\include"     --keep-dir x64\\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/wd4819 /wd4828 -Zi -Ob0 -v" -g  -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_a5842.dir\\Debug\\vc143.pdb /FS /Zi /RTC1 /MDd " -o cmTC_a5842.dir\\Debug\\CMakeCUDACompilerABI.obj "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (CudaBuildCore 目標) 建置完成。]
+        ignore line: [Link:]
+        ignore line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\Debug\\cmTC_a5842.exe" /INCREMENTAL /ILK:"cmTC_a5842.dir\\Debug\\cmTC_a5842.ilk" /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.lib" /MACHINE:X64  /machine:x64 -v cmTC_a5842.dir\\Debug\\CMakeCUDACompilerABI.obj]
+        ignore line: [LINK : warning LNK4044: 無法辨認的選項 '/v'，已忽略 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [     正在建立程式庫 D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.lib 和物件 D:/openmmlab/mmdeploy/build-t/CMakeFiles/CMakeScratch/TryCompile-pxlc3l/Debug/cmTC_a5842.exp]
+        ignore line: [LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  cmTC_a5842.vcxproj -> D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\Debug\\cmTC_a5842.exe]
+        ignore line: [FinalizeBuildStatus:]
+        ignore line: [  正在刪除檔案 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\unsuccessfulbuild"。]
+        ignore line: [  正在變更時間戳記 "cmTC_a5842.dir\\Debug\\cmTC_a5842.tlog\\cmTC_a5842.lastbuildstate"。]
+        ignore line: [專案 "D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (預設目標) 建置完成。]
+        ignore line: []
+        ignore line: [建置成功。]
+        ignore line: []
+        ignore line: ["D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (預設目標) (1) ->]
+        ignore line: ["D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (CudaBuildCore 目標) (1:2) ->]
+        ignore line: [(CudaBuildCore 目標) -> ]
+        ignore line: [  cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  cl : 命令列 warning D9002: 忽略未知的選項 '-v' [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCompilerCUDAArch.h(10): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: []
+        ignore line: []
+        ignore line: ["D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj" (預設目標) (1) ->]
+        ignore line: [(Link 目標) -> ]
+        ignore line: [  LINK : warning LNK4044: 無法辨認的選項 '/v'，已忽略 [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: [  LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library [D:\\openmmlab\\mmdeploy\\build-t\\CMakeFiles\\CMakeScratch\\TryCompile-pxlc3l\\cmTC_a5842.vcxproj]]
+        ignore line: []
+        ignore line: [    6 個警告]
+        ignore line: [    0 個錯誤]
+        ignore line: []
+        ignore line: [經過時間 00:00:02.17]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+...

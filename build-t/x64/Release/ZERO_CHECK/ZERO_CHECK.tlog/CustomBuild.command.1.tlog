@@ -1,0 +1,10 @@
+^D:\OPENMMLAB\MMDEPLOY\BUILD-T\CMAKEFILES\749432FFA4752707A4756760B17FCF7E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/openmmlab/mmdeploy -BD:/openmmlab/mmdeploy/build-t --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/openmmlab/mmdeploy/build-t/MMDeploy.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

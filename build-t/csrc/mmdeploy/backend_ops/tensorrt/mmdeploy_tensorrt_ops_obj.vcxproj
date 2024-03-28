@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2FA308CD-A663-3522-9C33-66D9B6E43B4E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mmdeploy_tensorrt_ops_obj</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.8.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mmdeploy_tensorrt_ops_obj.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mmdeploy_tensorrt_ops_obj.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mmdeploy_tensorrt_ops_obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mmdeploy_tensorrt_ops_obj.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mmdeploy_tensorrt_ops_obj.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mmdeploy_tensorrt_ops_obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mmdeploy_tensorrt_ops_obj.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mmdeploy_tensorrt_ops_obj.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mmdeploy_tensorrt_ops_obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mmdeploy_tensorrt_ops_obj.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mmdeploy_tensorrt_ops_obj.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mmdeploy_tensorrt_ops_obj</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/TensorRT-8.6.1.6/include" /external:I "D:/cudnn-windows-x86_64-8.9.0.131_cuda11-archive/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DiagnosticsFormat>Classic</DiagnosticsFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;MMDEPLOY_USE_CUDA=1;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(Include)</Include>
+      <Defines>%(Defines);THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="Debug"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -gencode arch=compute_52,code=sm_52 -gencode arch=compute_53,code=sm_53 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_72,code=sm_72 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_87,code=sm_87 -O0 -std=c++17 -Xcompiler=/wd4819,/wd4828</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Shared</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <HostDebugInfo>true</HostDebugInfo>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/TensorRT-8.6.1.6/include" /external:I "D:/cudnn-windows-x86_64-8.9.0.131_cuda11-archive/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DiagnosticsFormat>Classic</DiagnosticsFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(Include)</Include>
+      <Defines>%(Defines);THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="Release"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -gencode arch=compute_52,code=sm_52 -gencode arch=compute_53,code=sm_53 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_72,code=sm_72 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_87,code=sm_87 -O3 -std=c++17 -Xcompiler=/wd4819,/wd4828</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Shared</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/TensorRT-8.6.1.6/include" /external:I "D:/cudnn-windows-x86_64-8.9.0.131_cuda11-archive/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DiagnosticsFormat>Classic</DiagnosticsFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(Include)</Include>
+      <Defines>%(Defines);NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="MinSizeRel"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -gencode arch=compute_52,code=sm_52 -gencode arch=compute_53,code=sm_53 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_72,code=sm_72 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_87,code=sm_87 -std=c++17 -Xcompiler="/wd4819,/wd4828 -Ob1"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Shared</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <Optimization>O1</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/TensorRT-8.6.1.6/include" /external:I "D:/cudnn-windows-x86_64-8.9.0.131_cuda11-archive/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DiagnosticsFormat>Classic</DiagnosticsFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;MMDEPLOY_USE_CUDA=1;NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(Include)</Include>
+      <Defines>%(Defines);NDEBUG;THRUST_IGNORE_DEPRECATED_CPP_DIALECT=1;CMAKE_INTDIR="RelWithDebInfo"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -gencode arch=compute_52,code=sm_52 -gencode arch=compute_53,code=sm_53 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62 -gencode arch=compute_70,code=sm_70 -gencode arch=compute_72,code=sm_72 -gencode arch=compute_75,code=sm_75 -gencode arch=compute_80,code=sm_80 -gencode arch=compute_86,code=sm_86 -gencode arch=compute_87,code=sm_87 -std=c++17 -Xcompiler="/wd4819,/wd4828 -Zi -Ob1"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Shared</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <Optimization>O2</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <UseHostInclude>false</UseHostInclude>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\..\common;D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include;D:\TensorRT-8.6.1.6\include;D:\cudnn-windows-x86_64-8.9.0.131_cuda11-archive\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/openmmlab/mmdeploy/csrc/mmdeploy/backend_ops/tensorrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/openmmlab/mmdeploy -BD:/openmmlab/mmdeploy/build-t --check-stamp-file D:/openmmlab/mmdeploy/build-t/csrc/mmdeploy/backend_ops/tensorrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindCUDNN.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindTENSORRT.cmake;D:\openmmlab\mmdeploy\cmake\tensorrt.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/openmmlab/mmdeploy/csrc/mmdeploy/backend_ops/tensorrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/openmmlab/mmdeploy -BD:/openmmlab/mmdeploy/build-t --check-stamp-file D:/openmmlab/mmdeploy/build-t/csrc/mmdeploy/backend_ops/tensorrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindCUDNN.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindTENSORRT.cmake;D:\openmmlab\mmdeploy\cmake\tensorrt.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/openmmlab/mmdeploy/csrc/mmdeploy/backend_ops/tensorrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/openmmlab/mmdeploy -BD:/openmmlab/mmdeploy/build-t --check-stamp-file D:/openmmlab/mmdeploy/build-t/csrc/mmdeploy/backend_ops/tensorrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindCUDNN.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindTENSORRT.cmake;D:\openmmlab\mmdeploy\cmake\tensorrt.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/openmmlab/mmdeploy/csrc/mmdeploy/backend_ops/tensorrt/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/openmmlab/mmdeploy -BD:/openmmlab/mmdeploy/build-t --check-stamp-file D:/openmmlab/mmdeploy/build-t/csrc/mmdeploy/backend_ops/tensorrt/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindCUDNN.cmake;D:\openmmlab\mmdeploy\cmake\modules\FindTENSORRT.cmake;D:\openmmlab\mmdeploy\cmake\tensorrt.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\openmmlab\mmdeploy\build-t\csrc\mmdeploy\backend_ops\tensorrt\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\batched_nms\trt_batched_nms.cpp" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\batched_rotated_nms\trt_batched_rotated_nms.cpp" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\bicubic_interpolate\trt_bicubic_interpolate.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\bicubic_interpolate\trt_bicubic_interpolate_kernel.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\allClassNMS.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\allClassRotatedNMS.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\batched_nms_kernel.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\gatherNMSOutputs.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\kernel.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\permuteData.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\sortScoresPerClass.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\nms\sortScoresPerImage.cu" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\common_impl\trt_cuda_helper.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\deform_conv\trt_deform_conv.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\deform_conv\trt_deform_conv_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\gather_topk\gather_topk.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\gather_topk\gather_topk_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\grid_priors\trt_grid_priors.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\grid_priors\trt_grid_priors_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\grid_sampler\trt_grid_sampler.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\grid_sampler\trt_grid_sampler_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\instance_norm\trt_instance_norm.cpp" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\modulated_deform_conv\trt_modulated_deform_conv.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\modulated_deform_conv\trt_modulated_deform_conv_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\multi_level_roi_align\trt_multi_level_roi_align.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\multi_level_roi_align\trt_multi_level_roi_align_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\multi_level_rotated_roi_align\trt_multi_level_rotated_roi_align.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\multi_level_rotated_roi_align\trt_multi_level_rotated_roi_align_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\multi_scale_deform_attn\trt_ms_deform_attn.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\multi_scale_deform_attn\trt_ms_deform_attn_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\roi_align\trt_roi_align.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\roi_align\trt_roi_align_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\scaled_dot_product_attention\scaled_dot_product_attention.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\scaled_dot_product_attention\scaled_dot_product_attention_kernel.cu" />
+    <ClCompile Include="D:\openmmlab\mmdeploy\csrc\mmdeploy\backend_ops\tensorrt\scatternd\trt_scatternd.cpp" />
+    <CudaCompile Include="..\..\..\..\..\csrc\mmdeploy\backend_ops\tensorrt\scatternd\trt_scatternd_kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\openmmlab\mmdeploy\build-t\ZERO_CHECK.vcxproj">
+      <Project>{C016093F-9AC1-312C-93DF-B3D6533CAEB2}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 11.8.targets" />
+  </ImportGroup>
+</Project>

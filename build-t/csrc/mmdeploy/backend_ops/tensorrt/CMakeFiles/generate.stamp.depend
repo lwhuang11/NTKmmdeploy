@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+D:/openmmlab/mmdeploy/cmake/modules/FindCUDNN.cmake
+D:/openmmlab/mmdeploy/cmake/modules/FindTENSORRT.cmake
+D:/openmmlab/mmdeploy/cmake/tensorrt.cmake
+D:/openmmlab/mmdeploy/csrc/mmdeploy/backend_ops/tensorrt/CMakeLists.txt

@@ -77,7 +77,7 @@ def single_stage_detector__forward(self,
     is_dynamic_flag = is_dynamic_shape(deploy_cfg)
     img_shape = torch._shape_as_tensor(batch_inputs)[2:]
     if not is_dynamic_flag:
-        img_shape = [int(val) for val in img_shape]
+        img_shape = [val.numel() for val in img_shape]
 
     # set the metainfo
     data_samples = _set_metainfo(data_samples, img_shape)
